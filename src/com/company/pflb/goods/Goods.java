@@ -1,6 +1,6 @@
-package com.company.pflb;
+package com.company.pflb.goods;
 
-public class Goods {
+public abstract class Goods {
     String name;
     int price;
     String code;

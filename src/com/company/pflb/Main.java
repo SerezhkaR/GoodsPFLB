@@ -5,8 +5,7 @@ import com.company.pflb.goods.Disks;
 import com.company.pflb.goods.books.CookeryBooks;
 import com.company.pflb.goods.books.EsotericBooks;
 import com.company.pflb.goods.books.ProgramBooks;
-import com.company.pflb.goods.disks.CDDisks;
-import com.company.pflb.goods.disks.DVDDisks;
+
 
 import java.util.ArrayList;
 
@@ -14,8 +13,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        DVDDisks a = new DVDDisks("Windows 10", 3000, "152FD5W5", "DVD", "ПО");
-        CDDisks b = new CDDisks("Linkin Park", 400, "45257GW42F", "CD", "музыка");
+        Disks a = new Disks("Windows 10", 3000, "152FD5W5", "DVD", "ПО");
+        Disks b = new Disks("Linkin Park", 400, "45257GW42F", "CD", "музыка");
 
         ProgramBooks c = new ProgramBooks("Программирование для чайников", 1200, "FAD24R54R2", 1342, "Java");
         CookeryBooks d = new CookeryBooks("Итальянская кухня", 750, "SFKGN7828", 347, "Тесто");

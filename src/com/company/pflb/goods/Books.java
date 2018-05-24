@@ -1,7 +1,5 @@
 package com.company.pflb.goods;
 
-import com.company.pflb.Goods;
-
 public class Books extends Goods {
     int pages;
 
